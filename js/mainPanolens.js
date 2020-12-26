@@ -81,7 +81,6 @@ class MainPanolens {
   }
 
   start() {
-    console.log("minify");
     this.viewer = new PANOLENS.Viewer( { output: "console" } );
     this.viewer.add( this.panoramaLivingRoom, this.panoramaBedroom, this.panorama_video );
   }
